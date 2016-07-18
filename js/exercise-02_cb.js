@@ -1,11 +1,8 @@
-var val0;
-var factorial;
-
 function onSubmitButtonPressed() {
-    val0 = parseInt($('#inp0').val());
-    factorial = val0;
+    var val0 = parseInt($('#inp0').val());
+    var factorial = val0;
     for (i = 1; i < val0; i++) {
         factorial *= i;
     }
-    alert ('factorial: ' + factorial);
+    alert(val0 + ' factorial is ' + factorial);
 }
