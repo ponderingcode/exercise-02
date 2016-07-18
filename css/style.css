@@ -1,3 +1,13 @@
+.no-padding-no-margin {
+    padding: 0px;
+    margin: 0px;
+}
+
+.no-left-right-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .col-centered{
     float: none;
     margin: 0 auto;
